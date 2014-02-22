@@ -15,11 +15,11 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * This filter provides automatic linking to database activity entries
+ * This filter provides automatic linking to moodlelinkbase activity entries
  * when found inside every Moodle text.
  *
  * @package    filter
- * @subpackage data
+ * @subpackage moodlelink
  * @copyright  2006 Vy-Shane Sin Fat
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -27,9 +27,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 /**
- * Database activity filtering
+ * moodlelinkbase activity filtering
  */
-class filter_data extends moodle_text_filter {
+class filter_moodlelink extends moodle_text_filter {
 
     public function filter($text, array $options = array()) {
         global $CFG, $DB;

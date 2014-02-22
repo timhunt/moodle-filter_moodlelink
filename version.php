@@ -15,10 +15,10 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Data activity filter version information
+ * moodlelink activity filter version information
  *
  * @package    filter
- * @subpackage data
+ * @subpackage moodlelink
  * @copyright  2011 onwards Eloy Lafuente (stronk7) {@link http://stronk7.com}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -27,6 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->version  = 2013110500;
 $plugin->requires = 2013110500;  // Requires this Moodle version
-$plugin->component= 'filter_data';
+$plugin->component= 'filter_moodlelink';
 
-$plugin->dependencies = array('mod_data' => 2013110500);
+$plugin->dependencies = array('mod_moodlelink' => 2013110500);

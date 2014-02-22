@@ -15,14 +15,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for filter_data
+ * Strings for filter_moodlelink
  *
  * @package    filter
- * @subpackage data
+ * @subpackage moodlelink
  * @copyright  2011 onwards Eloy Lafuente (stronk7) {@link http://stronk7.com}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['filtername'] = 'Database auto-linking';
+$string['filtername'] = 'moodlelinkbase auto-linking';
