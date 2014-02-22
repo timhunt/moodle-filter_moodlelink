@@ -17,12 +17,11 @@
 /**
  * Strings for filter_moodlelink
  *
- * @package    filter
- * @subpackage moodlelink
- * @copyright  2011 onwards Eloy Lafuente (stronk7) {@link http://stronk7.com}
+ * @package    filter_moodlelink
+ * @copyright  2014 Tim Hunt
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['filtername'] = 'moodlelinkbase auto-linking';
+$string['filtername'] = 'Moodle name auto-link';

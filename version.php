@@ -15,18 +15,17 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * moodlelink activity filter version information
+ * Filter to turn the word Moodle into a link.
  *
- * @package    filter
- * @subpackage moodlelink
- * @copyright  2011 onwards Eloy Lafuente (stronk7) {@link http://stronk7.com}
+ * @package    filter_moodlelink
+ * @copyright  2014 Tim Hunt
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version  = 2013110500;
-$plugin->requires = 2013110500;  // Requires this Moodle version
-$plugin->component= 'filter_moodlelink';
-
-$plugin->dependencies = array('mod_moodlelink' => 2013110500);
+$plugin->version   = 2014022200;
+$plugin->requires  = 2013110500;  // Requires this Moodle version
+$plugin->component = 'filter_moodlelink';
+$plugin->maturity  = MATURITY_ALPHA ;
+$plugin->release   = '0.1 work in progress';
