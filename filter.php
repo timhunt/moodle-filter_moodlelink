@@ -33,8 +33,10 @@ class filter_moodlelink extends moodle_text_filter {
 
     public function filter($text, array $options = array()) {
 
-        return str_replace('Moodle', 'Moodle</a>', $text);
+        $replaces = array(
+            new filterobject('Moodle', '<a href="https://moodle.org/">', '</a>', true, true),
+        );
 
-//        return filter_phrases($text, $contentlist);  // Look for all these links in the text
+        return filter_phrases($text, $replaces);
     }
 }
