@@ -32,9 +32,9 @@ defined('MOODLE_INTERNAL') || die();
 class filter_moodlelink extends moodle_text_filter {
 
     public function filter($text, array $options = array()) {
-        global $CFG, $DB;
 
+        return str_replace('Moodle', 'Moodle</a>', $text);
 
-        return filter_phrases($text, $contentlist);  // Look for all these links in the text
+//        return filter_phrases($text, $contentlist);  // Look for all these links in the text
     }
 }
